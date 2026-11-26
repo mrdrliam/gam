@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">گام</string>
+    <string name="widget_description">پیشرفت امروز، ثبت سریع و مکث</string>
+    <string name="widget_log">+ ثبت سریع</string>
+    <string name="widget_pause">🌊 مکث</string>
+    <string name="shortcut_log">ثبت سریع</string>
+    <string name="shortcut_pause">وسوسه دارم</string>
+    <string name="shortcut_close">بستن روز</string>
+</resources>

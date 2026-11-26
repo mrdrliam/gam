@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_log"
+        android:shortcutId="log"
+        android:shortcutShortLabel="@string/shortcut_log">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="habit://log"
+            android:targetClass="com.kassa.habit.MainActivity"
+            android:targetPackage="com.kassa.habit" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_pause"
+        android:shortcutId="pause"
+        android:shortcutShortLabel="@string/shortcut_pause">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="habit://pause"
+            android:targetClass="com.kassa.habit.MainActivity"
+            android:targetPackage="com.kassa.habit" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_close"
+        android:shortcutId="close"
+        android:shortcutShortLabel="@string/shortcut_close">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="habit://close"
+            android:targetClass="com.kassa.habit.MainActivity"
+            android:targetPackage="com.kassa.habit" />
+    </shortcut>
+</shortcuts>
